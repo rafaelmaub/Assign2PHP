@@ -1,0 +1,48 @@
+@import url("style.css");
+
+
+
+form
+{
+    border: 0;
+    padding: 0;
+}
+
+*
+{
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+h3
+{
+    text-align: center;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+
+main > section
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+main
+{
+    padding: 0;
+}
+
+section.account-handler
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
